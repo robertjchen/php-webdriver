@@ -146,6 +146,9 @@ class DriverCommand
     const GET_NETWORK_CONNECTION = 'getNetworkConnection';
     const SET_NETWORK_CONNECTION = 'setNetworkConnection';
 
+    // Chrome-specifc Commands
+    const CHROME_SEND_DEVTOOLS_COMMAND = 'chromium/send_command_and_get_result';
+
     private function __construct()
     {
     }
